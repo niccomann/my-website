@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px 'Courier New'; color: #77d864; -webkit-text-stroke: #77d864}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px 'Courier New'; color: #c18880; -webkit-text-stroke: #c18880}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px 'Courier New'; color: #a8a9af; -webkit-text-stroke: #a8a9af; min-height: 19.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px 'Courier New'; color: #757575; -webkit-text-stroke: #757575}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px 'Courier New'; color: #6da3e5; -webkit-text-stroke: #6da3e5}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px 'Courier New'; color: #a8a9af; -webkit-text-stroke: #a8a9af}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.0px 'Courier New'; color: #77d864; -webkit-text-stroke: #77d864; background-color: #434346}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #6da3e5; -webkit-text-stroke: 0px #6da3e5}
+    span.s3 {font-kerning: none; color: #a8a9af; -webkit-text-stroke: 0px #a8a9af}
+    span.s4 {font-kerning: none; color: #77d864; -webkit-text-stroke: 0px #77d864}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!doctype html&gt;&lt;html lang="</span><span class="s2">en</span><span class="s1">"&gt;&lt;head&gt;&lt;meta charset="</span><span class="s2">utf-8</span><span class="s1">"/&gt;&lt;meta name="</span><span class="s2">viewport</span><span class="s1">" content="</span><span class="s2">width=device-width,initial-scale=1</span><span class="s1">"/&gt;&lt;meta name="</span><span class="s2">theme-color</span><span class="s1">" content="</span><span class="s2">#000000</span><span class="s1">"/&gt;&lt;meta name="</span><span class="s2">description</span><span class="s1">" content="</span><span class="s2">Draft Landing Pages</span><span class="s1">"/&gt;&lt;link rel="</span><span class="s2">stylesheet</span><span class="s1">" href="</span><span class="s2">./tailwind.css</span><span class="s1">"&gt;&lt;title&gt;</span><span class="s3">Draft Landing Pages</span><span class="s1">&lt;/title&gt;</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;style&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.lighten-image {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>position: relative;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.lighten-image::before {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>content: "";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>position: absolute;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>top: 0;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>left: 0;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>width: 100%;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>height: 100%;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>background-color: rgba(255, 255, 255, 0.5);<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>pointer-events: none;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.lighten-image &gt; * {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>position: relative;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>z-index: 1;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.top-panel, .bottom-panel {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>position: fixed;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>left: 0;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>width: 100%;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>height: 15vh;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>background-color: rgba(0, 0, 0, 0.5);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>padding: 10px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>color: #fff;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>z-index: 9999;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>display: flex;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>align-items: center;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>justify-content: center;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.top-panel {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>top: 0;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.bottom-panel {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>bottom: 0;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.pyxlA {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>text-align: center;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1">&lt;!-- Google tag (gtag.js) --&gt;</span></p>
+<p class="p2"><span class="s1">&lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-CXSJ9JREJ5"&gt;&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1">&lt;script&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>window.dataLayer = window.dataLayer || [];</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>function gtag(){dataLayer.push(arguments);}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>gtag('js', new Date());</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>gtag('config', 'G-CXSJ9JREJ5');</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/head&gt;&lt;body&gt;&lt;noscript&gt;</span><span class="s3">You need to enable JavaScript to run this app.</span><span class="s1">&lt;/noscript&gt;&lt;div id="</span><span class="s2">root</span><span class="s1">"&gt;&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;section class="</span><span class="s1">text-pink-200 body-font lighten-image</span><span class="s4">" style="</span><span class="s1">background-image: url('https://source.unsplash.com/720x600?ai,technology'); background-size: cover; background-position: center; height: 150%;</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s4">&lt;div class="</span><span class="s1">container mx-auto flex px-5 py-24 pt-64 md:flex-row flex-col items-center</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;div class="</span><span class="s1">lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;h1 class="</span><span class="s1">title-font sm:text-4xl text-3xl mb-4 font-medium text-pink-200</span><span class="s4">"&gt;</span><span class="s3">Panoramica sui Large Language Models e Chatbot</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;br class="</span><span class="s2">hidden lg:inline-block</span><span class="s4">"&gt;</span><span class="s1">Scopri come la tecnologia sta rivoluzionando le interazioni</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/h1&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;p class="</span><span class="s2">mb-8 leading-relaxed</span><span class="s4">"&gt;</span><span class="s1">Dai LLM ai chatbot personalizzati, esplora le ultime tendenze e le migliori pratiche.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">flex justify-center</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;button id="</span><span class="s1">scrollButton3</span><span class="s4">" class="</span><span class="s1">inline-flex text-pink-100 bg-pink-400 border-0 py-2 px-6 focus:outline-none hover:bg-pink-500 rounded text-lg</span><span class="s4">"&gt;</span><span class="s3">Scopri di più</span><span class="s4">&lt;/button&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;button id="</span><span class="s1">scrollButton4</span><span class="s4">" class="</span><span class="s1">ml-4 inline-flex text-pink-200 bg-pink-100 border-0 py-2 px-6 focus:outline-none hover:bg-pink-100 rounded text-lg</span><span class="s4">"&gt;</span><span class="s3">Contattaci</span><span class="s4">&lt;/button&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p5"><span class="s4">&lt;section class="</span><span class="s1">text-pink-300 body-font bg-pink-200</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s4">&lt;div class="</span><span class="s1">container px-5 py-24 mx-auto</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;div class="</span><span class="s1">flex flex-wrap w-full mb-20</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">lg:w-1/2 w-full mb-6 lg:mb-0</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;h1 class="</span><span class="s1">sm:text-3xl text-2xl font-medium title-font mb-2 text-pink-100</span><span class="s4">"&gt;</span><span class="s3">Large Language Models (LLM)</span><span class="s4">&lt;/h1&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">h-1 w-20 bg-pink-300 rounded</span><span class="s4">"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;p class="</span><span class="s2">lg:w-1/2 w-full leading-relaxed text-pink-300</span><span class="s4">"&gt;</span><span class="s1">I LLM sono avanzate architetture di intelligenza artificiale, come GPT di OpenAI, addestrate su enormi quantità di dati per comprendere e generare testo. Questi modelli, grazie alla loro capacità di analizzare il contesto, stanno rivoluzionando l'interazione uomo-macchina.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;div class="</span><span class="s1">flex flex-wrap -m-4</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">xl:w-1/4 md:w-1/2 p-4 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">bg-pink-100 p-6 rounded-lg</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;img class="</span><span class="s1">h-40 rounded w-full object-cover object-center mb-6</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/720x400?ai</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h3 class="</span><span class="s1">tracking-widest text-pink-200 text-xs font-medium title-font</span><span class="s4">"&gt;</span><span class="s3">Chatbot Personalizzati</span><span class="s4">&lt;/h3&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h2 class="</span><span class="s1">text-lg text-pink-300 font-medium title-font mb-4</span><span class="s4">"&gt;&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;p class="</span><span class="s2">leading-relaxed text-base text-pink-300</span><span class="s4">"&gt;</span><span class="s1">I chatbot personalizzati, spesso potenziati da LLM, stanno diventando strumenti essenziali per le aziende, offrendo interazioni fluide e automatizzate con gli utenti. La creazione e l'ottimizzazione di questi chatbot richiedono una chiara definizione degli obiettivi, una progettazione attenta e una formazione continua.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">xl:w-1/4 md:w-1/2 p-4 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">bg-pink-100 p-6 rounded-lg</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;img class="</span><span class="s1">h-40 rounded w-full object-cover object-center mb-6</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/721x401?chatbot</span><span class="s4">" alt="</span><span class="s1">content</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h3 class="</span><span class="s1">tracking-widest text-pink-200 text-xs font-medium title-font</span><span class="s4">"&gt;</span><span class="s3">Prompt Engineering</span><span class="s4">&lt;/h3&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h2 class="</span><span class="s1">text-lg text-pink-300 font-medium title-font mb-4</span><span class="s4">"&gt;&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;p class="</span><span class="s2">leading-relaxed text-base text-pink-300</span><span class="s4">"&gt;</span><span class="s1">Il "prompt engineering" è l'arte di formulare domande o istruzioni in modo che il modello fornisca risposte precise. È essenziale perché, nonostante la potenza dei LLM, la qualità della risposta dipende spesso dalla chiarezza del prompt.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">xl:w-1/4 md:w-1/2 p-4 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">bg-pink-100 p-6 rounded-lg</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;img class="</span><span class="s1">h-40 rounded w-full object-cover object-center mb-6</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/722x402?technology</span><span class="s4">" alt="</span><span class="s1">content</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h3 class="</span><span class="s1">tracking-widest text-pink-200 text-xs font-medium title-font</span><span class="s4">"&gt;</span><span class="s3">Integrazione e Ottimizzazione</span><span class="s4">&lt;/h3&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h2 class="</span><span class="s1">text-lg text-pink-300 font-medium title-font mb-4</span><span class="s4">"&gt;&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;p class="</span><span class="s2">leading-relaxed text-base text-pink-300</span><span class="s4">"&gt;</span><span class="s1">Sia i LLM che i chatbot necessitano di integrazioni con altri sistemi e di continue ottimizzazioni basate sui feedback degli utenti per garantire prestazioni ottimali e risposte accurate.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">xl:w-1/4 md:w-1/2 p-4 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">bg-pink-100 p-6 rounded-lg</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;img class="</span><span class="s1">h-40 rounded w-full object-cover object-center mb-6</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/723x403?innovation</span><span class="s4">" alt="</span><span class="s1">content</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h3 class="</span><span class="s1">tracking-widest text-pink-200 text-xs font-medium title-font</span><span class="s4">"&gt;</span><span class="s3">Video e Risorse</span><span class="s4">&lt;/h3&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h2 class="</span><span class="s1">text-lg text-pink-300 font-medium title-font mb-4</span><span class="s4">"&gt;&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;p class="</span><span class="s2">leading-relaxed text-base text-pink-300</span><span class="s4">"&gt;</span><span class="s1">Esplora una selezione di video e risorse per approfondire ulteriormente i temi dei Large Language Models e dei chatbot personalizzati.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p5"><span class="s4">&lt;section class="</span><span class="s1">text-pink-300 body-font bg-pink-100</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;div class="</span><span class="s1">container px-5 py-24 mx-auto flex flex-wrap</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">flex w-full mb-20 flex-wrap</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;h1 class="</span><span class="s1">sm:text-3xl text-2xl font-medium title-font text-pink-200 lg:w-1/3 lg:mb-0 mb-4</span><span class="s4">"&gt;</span><span class="s3">Video e Risorse</span><span class="s4">&lt;/h1&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;p class="</span><span class="s2">lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base</span><span class="s4">"&gt;</span><span class="s1">Esplora una selezione di video e risorse per approfondire ulteriormente i temi dei Large Language Models e dei chatbot personalizzati.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">flex flex-wrap md:-m-2 -m-1</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">flex flex-wrap w-1/2</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">md:p-2 p-1 w-1/2</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;img alt="</span><span class="s1">gallery</span><span class="s4">" class="</span><span class="s1">w-full object-cover h-full object-center block</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/500x300?video</span><span class="s4">"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">md:p-2 p-1 w-1/2</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;img alt="</span><span class="s1">gallery</span><span class="s4">" class="</span><span class="s1">w-full object-cover h-full object-center block</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/500x301?youtube</span><span class="s4">"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">md:p-2 p-1 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;img alt="</span><span class="s1">gallery</span><span class="s4">" class="</span><span class="s1">w-full h-full object-cover object-center block</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/600x360?tutorial</span><span class="s4">"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">flex flex-wrap w-1/2</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">md:p-2 p-1 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;img alt="</span><span class="s1">gallery</span><span class="s4">" class="</span><span class="s1">w-full h-full object-cover object-center block</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/601x361?webinar</span><span class="s4">"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">md:p-2 p-1 w-1/2</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;img alt="</span><span class="s1">gallery</span><span class="s4">" class="</span><span class="s1">w-full object-cover h-full object-center block</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/502x302?presentation</span><span class="s4">"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">md:p-2 p-1 w-1/2</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;img alt="</span><span class="s1">gallery</span><span class="s4">" class="</span><span class="s1">w-full object-cover h-full object-center block</span><span class="s4">" src="</span><span class="s1">https://source.unsplash.com/503x303?lecture</span><span class="s4">"&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p5"><span class="s4">&lt;section class="</span><span class="s1">text-pink-200 body-font bg-pink-200</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s4">&lt;div class="</span><span class="s1">container px-5 py-24 mx-auto</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;h1 class="</span><span class="s1">sm:text-3xl text-2xl font-medium title-font text-center text-pink-100 mb-20</span><span class="s4">"&gt;</span><span class="s3">Link Utili</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;br class="</span><span class="s1">hidden sm:block</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/h1&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;div class="</span><span class="s1">flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">p-4 md:w-1/3 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">p-4 bg-pink-100 rounded</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">w-12 h-12 inline-flex items-center justify-center rounded-full bg-pink-200 text-pink-400 mb-4 flex-shrink-0</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s1">&lt;svg fill="</span><span class="s2">none</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-6 h-6</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s4">&lt;path d="</span><span class="s1">M22 12h-4l-3 9L9 3l-3 9H2</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">flex-grow pl-6</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;h2 class="</span><span class="s1">text-pink-200 text-lg title-font font-medium mb-2</span><span class="s4">"&gt;</span><span class="s3">Video su LLM</span><span class="s4">&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;p class="</span><span class="s2">leading-relaxed text-base</span><span class="s4">"&gt;</span><span class="s1">Guarda questo video introduttivo sui Large Language Models e scopri come funzionano.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;a class="</span><span class="s1">mt-3 text-pink-400 inline-flex items-center</span><span class="s4">"&gt;</span><span class="s3">Learn More</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;svg fill="</span><span class="s2">none</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-4 h-4 ml-2</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">              </span></span><span class="s4">&lt;path d="</span><span class="s1">M5 12h14M12 5l7 7-7 7</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">p-4 md:w-1/3 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">p-4 bg-pink-100 rounded</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">w-12 h-12 inline-flex items-center justify-center rounded-full bg-pink-200 text-pink-400 mb-4 flex-shrink-0</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s1">&lt;svg fill="</span><span class="s2">none</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-6 h-6</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;circle cx="</span><span class="s2">6</span><span class="s1">" cy="</span><span class="s2">6</span><span class="s1">" r="</span><span class="s2">3</span><span class="s1">"&gt;&lt;/circle&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;circle cx="</span><span class="s2">6</span><span class="s1">" cy="</span><span class="s2">18</span><span class="s1">" r="</span><span class="s2">3</span><span class="s1">"&gt;&lt;/circle&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s4">&lt;path d="</span><span class="s1">M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">flex-grow pl-6</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;h2 class="</span><span class="s1">text-pink-200 text-lg title-font font-medium mb-2</span><span class="s4">"&gt;</span><span class="s3">Tutorial sui Chatbot</span><span class="s4">&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;p class="</span><span class="s2">leading-relaxed text-base</span><span class="s4">"&gt;</span><span class="s1">Un tutorial dettagliato su come creare chatbot personalizzati per la tua azienda o progetto personale.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;a class="</span><span class="s1">mt-3 text-pink-400 inline-flex items-center</span><span class="s4">"&gt;</span><span class="s3">Learn More</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;svg fill="</span><span class="s2">none</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-4 h-4 ml-2</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">              </span></span><span class="s4">&lt;path d="</span><span class="s1">M5 12h14M12 5l7 7-7 7</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class="</span><span class="s1">p-4 md:w-1/3 w-full</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;div class="</span><span class="s1">p-4 bg-pink-100 rounded</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">w-12 h-12 inline-flex items-center justify-center rounded-full bg-pink-200 text-pink-400 mb-4 flex-shrink-0</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s1">&lt;svg fill="</span><span class="s2">none</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-6 h-6</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s4">&lt;path d="</span><span class="s1">M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;circle cx="</span><span class="s2">12</span><span class="s1">" cy="</span><span class="s2">7</span><span class="s1">" r="</span><span class="s2">4</span><span class="s1">"&gt;&lt;/circle&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;div class="</span><span class="s1">flex-grow pl-6</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;h2 class="</span><span class="s1">text-pink-200 text-lg title-font font-medium mb-2</span><span class="s4">"&gt;</span><span class="s3">Webinar sul Prompt Engineering</span><span class="s4">&lt;/h2&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;p class="</span><span class="s2">leading-relaxed text-base</span><span class="s4">"&gt;</span><span class="s1">Un webinar approfondito sulle tecniche di prompt engineering e come ottenere il massimo dai modelli di lingua.</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;a class="</span><span class="s1">mt-3 text-pink-400 inline-flex items-center</span><span class="s4">"&gt;</span><span class="s3">Learn More</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;svg fill="</span><span class="s2">none</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-4 h-4 ml-2</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">              </span></span><span class="s4">&lt;path d="</span><span class="s1">M5 12h14M12 5l7 7-7 7</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">          </span></span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p5"><span class="s4">&lt;footer class="</span><span class="s1">text-pink-200 body-font bg-pink-100</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s4">&lt;div class="</span><span class="s1">container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;a class="</span><span class="s1">flex title-font font-medium items-center md:justify-start justify-center text-pink-200</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;svg xmlns="</span><span class="s1">http://www.w3.org/2000/svg</span><span class="s4">" fill="</span><span class="s1">none</span><span class="s4">" stroke="</span><span class="s1">currentColor</span><span class="s4">" stroke-linecap="</span><span class="s1">round</span><span class="s4">" stroke-linejoin="</span><span class="s1">round</span><span class="s4">" stroke-width="</span><span class="s1">2</span><span class="s4">" class="</span><span class="s1">w-10 h-10 text-pink-400 p-2 bg-pink-200 rounded-full</span><span class="s4">" viewBox="</span><span class="s1">0 0 24 24</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;path d="</span><span class="s1">M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/svg&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;span class="</span><span class="s2">ml-3 text-xl</span><span class="s1">"&gt;</span><span class="s3">Pyxl.uk</span><span class="s1">&lt;/span&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/a&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;p class="</span><span class="s1">text-sm text-pink-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-pink-200 sm:py-2 sm:mt-0 mt-4</span><span class="s4">"&gt;</span><span class="s3">© 2023 Panoramica LLM e Chatbot —</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;a href="</span><span class="s1">https://twitter.com/knyttneve</span><span class="s4">" class="</span><span class="s1">text-pink-200 ml-1</span><span class="s4">" rel="</span><span class="s1">noopener noreferrer</span><span class="s4">" target="</span><span class="s1">_blank</span><span class="s4">"&gt;</span><span class="s3">Creato con amore da ChatGPT</span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/p&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">&lt;span class="</span><span class="s1">inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start</span><span class="s4">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;a class="</span><span class="s1">text-pink-200</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;svg fill="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-5 h-5</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;path d="</span><span class="s1">M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;a class="</span><span class="s1">ml-3 text-pink-200</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;svg fill="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-5 h-5</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;path d="</span><span class="s1">M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;a class="</span><span class="s1">ml-3 text-pink-200</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;svg fill="</span><span class="s2">none</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">2</span><span class="s1">" class="</span><span class="s2">w-5 h-5</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;rect width="</span><span class="s2">20</span><span class="s1">" height="</span><span class="s2">20</span><span class="s1">" x="</span><span class="s2">2</span><span class="s1">" y="</span><span class="s2">2</span><span class="s1">" rx="</span><span class="s2">5</span><span class="s1">" ry="</span><span class="s2">5</span><span class="s1">"&gt;&lt;/rect&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;path d="</span><span class="s1">M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;a class="</span><span class="s1">ml-3 text-pink-200</span><span class="s4">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;svg fill="</span><span class="s2">currentColor</span><span class="s1">" stroke="</span><span class="s2">currentColor</span><span class="s1">" stroke-linecap="</span><span class="s2">round</span><span class="s1">" stroke-linejoin="</span><span class="s2">round</span><span class="s1">" stroke-width="</span><span class="s2">0</span><span class="s1">" class="</span><span class="s2">w-5 h-5</span><span class="s1">" viewBox="</span><span class="s2">0 0 24 24</span><span class="s1">"&gt;</span></p>
+<p class="p5"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;path stroke="</span><span class="s1">none</span><span class="s4">" d="</span><span class="s1">M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z</span><span class="s4">"&gt;&lt;/path&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;circle cx="</span><span class="s2">4</span><span class="s1">" cy="</span><span class="s2">4</span><span class="s1">" r="</span><span class="s2">2</span><span class="s1">" stroke="</span><span class="s2">none</span><span class="s1">"&gt;&lt;/circle&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">&lt;/svg&gt;</span></p>
+<p class="p6"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;/a&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/footer&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
+<p class="p7"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/body&gt;&lt;/html&gt;</span></p>
+</body>
+</html>
