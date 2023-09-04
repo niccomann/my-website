@@ -59,11 +59,13 @@
     })
 </script>
       <script>
-    // Aggiungi qui il tuo codice JavaScript
+  // Ottieni il riferimento al pulsante
+    const scrollButton3 = document.getElementById('scrollButton3');
 
-    // Esempio: cambia il colore di sfondo del footer al click
-    const footer = document.querySelector('footer');
-    footer.addEventListener('click', () => {
+    // Aggiungi un listener per l'evento click
+    scrollButton3.addEventListener('click', () => {
+      // Cambia il colore di sfondo del footer quando il pulsante è premuto
+      const footer = document.querySelector('footer');
       footer.style.backgroundColor = 'blue';
     });
   </script>
